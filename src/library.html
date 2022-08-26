@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmoteka Lib</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sass/index.scss"/>
+</head>
+<body>
+
+    <div class="loader__backdrop">
+        <div class="loader"></div>
+      </div>
+
+      
+    <header class="library__header container">
+
+
+        <a href="index.html" class="header__logo">Filmoteka</a>
+     
+        <div>
+            <button type="button" class="lib-button" data-action="watched">watched</button>
+            <button type="button" class="lib-button" data-action="queue">queue</button>
+        </div>
+    
+    
+        <nav>
+            <a href="index.html" class="header__nav-link">home</a>
+            <a href="library.html" class="header__nav-link">my library</a>
+        </nav>
+        
+    </header>
+
+    <main>
+        <section class="section container">
+
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <p class="footer__text">
+          ©  2022 | All Rights Reserved | Developed with</p> 
+          <div class="heart"></div>
+          <p class="footer__text">by</p>
+        
+        <button type="button" class="footer__button" data-modal-open-contacts>GoIT Students</button>
+    </footer>
+   <include src="./partials/footer-modal.html"></include>
+
+
+   <script type="module" src="./index.js"></script>
+
+
+
+</body>
+
+
+</html>

@@ -5,7 +5,7 @@
   "homepage": "https://PavloPSh.github.io/jsTeamPrDemo",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /jsTeamPrDemo/--no-scope-hoist"
+    "build": "parcel build src/*.html --public-url /jsTeamPrDemo/ --no-scope-hoist"
   },
   "repository": {
     "type": "git",
